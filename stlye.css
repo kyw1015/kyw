@@ -1,0 +1,56 @@
+html{font-size: 14pt;}
+
+.do-hyeon-regular {
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+}
+
+body{font-family: "Do Hyeon", sans-serif;}
+
+
+/* 첫번째 css*/
+.page1 img{width:80%; max-width:150%; height: auto;}
+.page1 h3{font-weight: bold;}
+body{background-color: #F8F7EA;}
+.table td, .table th{background-color: transparent !important;}
+.table th{color: #263869;}
+
+
+
+/* 팀 화이트 창 */
+#intro {margin-top: 350px;}
+.nav-pills .nav-link{color:black}
+.nav-pills .nav-link.active{background-color: #774FC4}
+#pills-tab {
+    display: flex;              /* flexbox 사용 */
+    justify-content: center;    /* 가로로 가운데 정렬 */
+    align-items: center;        /* 세로로 가운데 정렬 */
+    margin-top: 10px; 
+    }
+    .nav-pills .nav-link {
+        font-size: 1.0rem;           /* 글자 크기 키우기 */
+        font-weight: bold;
+        padding: 10px 20px;          /* 탭 버튼 안쪽 여백 조정 */
+        border-radius: 0.8rem;      /* 버튼 모서리 둥글게 */
+      }
+#link1 {display: flex;              /* 링크 가운데 정렬 */
+        justify-content: center;    
+        align-items: center;    
+        margin-top: 50px;}
+
+      
+
+/* 더피크 창 */
+#peak {margin-top: 350px;}
+#carouselExample{width:80%; max-width:100%; height: auto; display: block; /* 블록 요소로 변환 */
+  margin: auto; /* 자동 마진으로 가운데 정렬 */
+}
+
+
+#routine{margin-top: 350px;}
+#routine-image{width: 100%;        /* 이미지를 카드의 너비에 맞게 확장 */
+  height: 100%;       /* 카드의 높이에 맞게 이미지 크기 확장 */
+}
+
+#footer {background-color: #774FC4;}
